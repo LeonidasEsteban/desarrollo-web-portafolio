@@ -4,14 +4,19 @@ declaraciones
 propiedades
 valores */
 
-header {
-  background: pink;
-}
 
 /* seletor de etiqueta  header - section - article - nav */
+  header {
+    background: pink;
+    color: red
+  }
+
 /* selector descendente  */
 /* body header div nav ol li a  */
 
 /* selector de clase . */
 
 /* .link */
+
+/* selector de id # */
+/* #portafolio */

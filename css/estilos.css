@@ -1,3 +1,17 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
 header {
-  background: pink !important;
+  background: pink;
 }
+
+/* seletor de etiqueta  header - section - article - nav */
+/* selector descendente  */
+/* body header div nav ol li a  */
+
+/* selector de clase . */
+
+/* .link */

@@ -112,3 +112,20 @@ h1 strong {
   color: white;
   text-decoration: none;
 }
+
+
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid red;
+
+  flex-shrink: 0;
+}

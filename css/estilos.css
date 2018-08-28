@@ -64,6 +64,23 @@ h1 strong {
   background-position-x: right;
 }
 
+.project {
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* color: blue; */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+}
+
 .project-details {
   width: 500px;
 }

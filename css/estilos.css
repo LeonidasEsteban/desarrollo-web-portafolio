@@ -6,10 +6,10 @@ valores */
 
 
 /* seletor de etiqueta  header - section - article - nav */
-  header {
-    background: pink;
-    color: red
-  }
+/* header {
+  background: pink;
+  color: red
+} */
 
 /* selector descendente  */
 /* body header div nav ol li a  */
@@ -20,3 +20,17 @@ valores */
 
 /* selector de id # */
 /* #portafolio */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+}

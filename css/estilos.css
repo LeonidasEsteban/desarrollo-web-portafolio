@@ -66,7 +66,10 @@ h1 strong {
   background-position-x: right;
 }
 
-
+.portfolio {
+  background: #fafafa;
+  /* background: red; */
+}
 
 .project {
   /* border-top: 10px solid red;
@@ -88,7 +91,8 @@ h1 strong {
   /* margin-right
   margin-left 
   margin-top */
- 
+  padding: 20px;
+  background: white;
 }
 
 .project-details {

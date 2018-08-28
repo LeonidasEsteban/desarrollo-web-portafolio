@@ -44,3 +44,15 @@ h1 {
   /* text-transform: uppercase; */
   /* text-decoration: dashed; */
 }
+
+.hero {
+  height: 300px;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}

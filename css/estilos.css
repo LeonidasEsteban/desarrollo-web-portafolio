@@ -68,14 +68,21 @@ h2 {
 
 .hero {
   height: 300px;
-  background-image: url('../images/hero.jpg');
+  /* background-image: url('../images/hero.jpg'); */
   background-color: #1b2127;
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /* background-size: 500px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
 }
+
+.hero-image{
+  object-fit: cover;
+}
+
 
 .portfolio {
   background: #fafafa;
@@ -214,7 +221,7 @@ figure {
 
 .event-list {
   display: flex;
-
+  flex-wrap: wrap;
 }
 .event-list-title {
   margin-left: 20px;
@@ -310,4 +317,15 @@ figure {
 
 .form-email h3 { 
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
